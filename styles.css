@@ -160,7 +160,8 @@ hr{
     justify-content: center;
     align-items: center;
     width: 60%;
-    height: 60%;
+    height: 100%;
+    max-height: 60vh;
     position: absolute;
     top: 60%;
     left: 50%;
@@ -533,8 +534,8 @@ hr{
     }
     .header__text--wrapper{
         width: 60%;
-        height: 100%;
-        max-height: 40vh;
+        height: fit-content;
+        padding: 20px;
         position: absolute;
         top: 40%;
         left: 50%;

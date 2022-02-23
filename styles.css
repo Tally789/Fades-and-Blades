@@ -449,6 +449,7 @@ hr{
     .header__text--wrapper{
         width: 60%;
         height: fit-content;
+        height: 40vh;
         padding: 20px;
         position: absolute;
         top: 50%;
@@ -535,6 +536,7 @@ hr{
     .header__text--wrapper{
         width: 60%;
         height: fit-content;
+        max-height: 50vh;
         padding: 20px;
         position: absolute;
         top: 40%;
@@ -543,13 +545,13 @@ hr{
         text-align: center;
     }
     .header__h1{
-        font-size: 24px;
+        font-size: 18px;
     }
     .header__para{
         font-size: 12px;
     }
     .header__h2{
-        font-size: 16px;
+        font-size: 14px;
     }
     .location__half {
         display: flex;
@@ -607,7 +609,7 @@ hr{
     .carousel{
         position: relative;
         height: 300px;
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
     }
 }

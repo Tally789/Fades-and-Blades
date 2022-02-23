@@ -571,7 +571,7 @@ hr{
         margin: 0 auto
     }
     .location__h3, .shop__address{
-        font-size: 24px;
+        font-size: 18px;
     }
     .address{
         width: 100%;
@@ -579,8 +579,9 @@ hr{
         padding-top: 0;
     }
     .shop__image--wrapper{
-        width: 100%;
-        height: 50%;
+        align-self: center;
+        width: 90%;
+        height: 60%;
     }
     .shopfront__image{
         width: 80%;

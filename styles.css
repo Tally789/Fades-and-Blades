@@ -164,7 +164,7 @@ hr{
     height: fit-content;
     padding: 20px;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -540,9 +540,9 @@ hr{
         max-height: 50vh;
         padding: 20px;
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 50%;
-        transform: translate(-50%, -45%);
+        transform: translate(-50%, -50%);
         text-align: center;
     }
     .header__h1{

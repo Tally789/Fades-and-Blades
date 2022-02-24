@@ -56,12 +56,15 @@ hr{
     align-items: center;
 }
 .nav__link{
-    padding: 0 24px;
+    padding: 0 16px;
 }
 .nav__link--anchor {
     color: #333;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
+}
+.social__media--link--black{
+    color: #333;
 }
 .link__hover--effect{
     position: relative;
@@ -281,17 +284,22 @@ hr{
     margin-left: 100px;
 }
 .opening__time--logo{
-    height: 30%;
+    top: 10px;
+    height: 15%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 80px;
-    padding-bottom: 48px;
+    font-size: 60px;
+    /*padding-bottom: 24px;**/
+}
+.opening__times--h2{
+    padding: 16px 0;
 }
 .times{
     display: flex;
     width: 100%;
+    padding-top: 24px;
 }
 .day__column, .time__column{
     width: 50%;
@@ -400,13 +408,18 @@ hr{
     align-items: center;
 }
 .social__media--link{
-    color: #fff;
     height: 40px;
     width: 40px;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.social__media--link:hover{
+    transform: scale(1.1);
+}
+.social__media--link--white{
+    color: #fff;
 }
 .footer__links{
     padding-top: 24px;
